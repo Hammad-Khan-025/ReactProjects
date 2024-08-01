@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project-cards{
+    @apply bg-white hover:scale-105 w-[90%]  text-slate-900 rounded-lg overflow-hidden transitions;
+}   
+.view-project-btn{
+    @apply bg-teal-500   text-white hover:bg-teal-600  tracking-wider text-sm md:text-base  border border-teal-500 py-2 px-3 mt-5 rounded-full transitions;
+}
+.transitions{
+    @apply transition ease-linear duration-300;
+}
